@@ -1,0 +1,167 @@
+
+
+
+	body {
+		font-family: 'Gloria Hallelujah', cursive;
+	}
+	.clear::after{
+            content: " ";
+            clear: both;
+            display: block;
+        }
+
+	.todo {
+		margin: 150px auto;
+		width: 350px;
+		/*border: 1px solid gray;*/
+		box-shadow: 0 0 27px rgba(0,0,0,0.5);
+		}
+	.title {
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 15px;
+		font-family: 'Rock Salt', cursive;
+		margin-bottom: 5px;
+		margin-top: 0;
+		font-weight: bold;
+		
+	}
+	.top {
+		background-color: brown;
+		padding: 20px;
+		padding-bottom: 15px;
+		background-image: url("../img/top-bg.jpg");
+		background-size: cover; 
+		color: white;
+	}
+	.create {
+		width: 260px;
+		margin: 0 auto;
+		box-shadow: 0 0 27px rgba(0,0,0,0.5);
+	}
+	.new-message {
+		
+		float: left;
+		width: 191px;
+		outline: none;
+		padding-left: 5px;
+		background-color: transparent;
+		border: 2px solid white;
+		color: white;
+		font-family: 'Gloria Hallelujah', cursive;
+		font-weight: bold;
+			}
+	.new-message::-webkit-input-placeholder { 
+	    color:    #fff;
+		}
+	
+	.add {
+		float: right;
+		padding: 3px 9px;
+		font-family: 'Just Me Again Down Here', cursive;
+		text-transform: uppercase;
+		font-size: 20px;
+		border: 1px solid white;
+		background-color: #fff;
+		font-weight: bold;
+		color: black;
+
+	}
+	.add:active {
+		background-color: transparent;
+		border: 1px solid white;
+		outline: none;
+		color: white;
+		
+	}
+	button:focus {
+    outline: none;
+	}
+	.list {
+		
+		background-image: url("../img/main-bg.jpg");
+		background-size: cover;
+		padding-top: 20px; 
+		padding-bottom: 30px;
+	}
+	.list .field {
+		width: 260px;
+		min-height: 250px;
+		background-color: #fff;
+		margin: 0 auto;
+		padding-top: 27px;
+		background-image: url("../img/blue-pin.png");
+		background-repeat: no-repeat;
+		background-position: top 1px right -5px;
+		-webkit-background-size: 35px;
+		background-size: 35px;
+		-webkit-box-shadow: 0px 14px 45px 2px rgba(92,92,92,0.52);
+		-moz-box-shadow: 0px 14px 45px 2px rgba(92,92,92,0.52);
+		box-shadow: 0px 14px 45px 2px rgba(92,92,92,0.52);
+	}
+	
+	ol {
+		margin: 0;
+
+	}
+	.field .tasks {
+		padding-left: 30px;
+	}
+	
+
+	.field .tasks li {
+		width: 180px;
+		margin-top: 3px;
+		border-bottom: 2px solid lightgray;
+		padding-left: 7px;
+		float: left;
+		cursor: pointer;
+		list-style-position: inside;
+		font-family: 'Gloria Hallelujah', cursive;
+		
+	}
+	
+	.field .tasks li:last-child {
+		margin-bottom: 20px;
+	}
+
+
+
+	.field .tasks li.chosen {
+		background-color: #FBF4ED;
+		border: 1px solid lightgray;
+
+	}
+
+	  .buttons {
+		
+		margin: 0 auto;
+		width: 260px;
+		/*display: none;*/
+
+	} 
+	 .done {
+		
+		color: white;
+		background-color: #C7E5A5;
+		width: 130px;
+		
+	}
+	 .delete {
+		color: white;
+		background-color: #E28F8F;
+		width: 130px;
+	}
+	li .choose {
+		float: right;
+		margin-top: 10px;
+		display: none;
+		margin-right: 5px;
+	}
+
+	.made {
+		text-decoration:line-through;
+		border:none;
+		border-bottom: 1px solid lightgray;
+		background-color: #F3FEEC;
+	}
